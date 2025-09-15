@@ -1,0 +1,1080 @@
+{
+  "website_name": "InnoVision Career Guidance",
+  "website_type": "career_guidance_platform",
+  "company_branding": {
+    "name": "InnoVision",
+    "tagline": "Navigate Your Future with Precision",
+    "color_scheme": {
+      "primary": "#2563eb",
+      "secondary": "#1e40af",
+      "accent": "#3b82f6",
+      "success": "#10b981",
+      "warning": "#f59e0b",
+      "neutral": "#64748b"
+    },
+    "logo_placement": "top_left_navbar"
+  },
+  "navigation_structure": {
+    "main_navbar": {
+      "position": "fixed_top",
+      "items": [
+        {
+          "name": "Home",
+          "icon": "home",
+          "path": "/",
+          "active_state": true
+        },
+        {
+          "name": "Colleges",
+          "icon": "graduation-cap",
+          "path": "/colleges",
+          "dropdown": [
+            "Engineering Colleges",
+            "Medical Colleges",
+            "Law Colleges",
+            "Management Colleges",
+            "Compare Colleges"
+          ]
+        },
+        {
+          "name": "Exams",
+          "icon": "clipboard-list",
+          "path": "/exams",
+          "dropdown": [
+            "JEE Main/Advanced",
+            "NEET",
+            "CLAT",
+            "CAT/MAT",
+            "State Exams"
+          ]
+        },
+        {
+          "name": "Timeline",
+          "icon": "calendar",
+          "path": "/timeline"
+        },
+        {
+          "name": "Career Quiz",
+          "icon": "brain",
+          "path": "/quiz"
+        },
+        {
+          "name": "Scholarships",
+          "icon": "award",
+          "path": "/scholarships"
+        },
+        {
+          "name": "About",
+          "icon": "info",
+          "path": "/about"
+        }
+      ],
+      "styling": {
+        "spacing_fix": "add_proper_margin_between_company_name_and_home_button",
+        "hover_behavior": "smooth_transition_no_vibration",
+        "background": "glass_morphism_effect"
+      }
+    },
+    "floating_taskbar": {
+      "position": "bottom_right",
+      "items": [
+        "Quick Search",
+        "Bookmark",
+        "Compare",
+        "Help Chat"
+      ],
+      "fixes": {
+        "spacing": "ensure_proper_margin_between_company_name_and_navigation",
+        "hover_stability": "remove_vibration_effect_on_hover",
+        "positioning": "stable_fixed_position"
+      }
+    }
+  },
+  "pages": {
+    "home": {
+      "hero_section": {
+        "headline": "Your Gateway to Top Colleges and Career Success",
+        "subheading": "Discover government colleges, track exam deadlines, find scholarships, and plan your academic journey",
+        "cta_buttons": [
+          {
+            "text": "Find Your College",
+            "action": "redirect_to_colleges_page"
+          },
+          {
+            "text": "Take Career Quiz",
+            "action": "redirect_to_quiz_page"
+          }
+        ],
+        "statistics": {
+          "remove_dummy_data": true,
+          "replace_with": {
+            "colleges_listed": "2000+ Verified Colleges",
+            "exams_tracked": "50+ Major Entrance Exams",
+            "scholarships_available": "500+ Scholarship Opportunities",
+            "career_paths": "100+ Career Guidance Resources"
+          }
+        }
+      },
+      "features_section": [
+        {
+          "title": "Comprehensive College Database",
+          "description": "Access detailed information about government colleges across Northern India",
+          "icon": "database"
+        },
+        {
+          "title": "Exam Timeline Tracker",
+          "description": "Never miss important entrance exam deadlines and application dates",
+          "icon": "calendar-check"
+        },
+        {
+          "title": "Personalized Career Quiz",
+          "description": "Discover your ideal career path through scientific assessment",
+          "icon": "user-search"
+        },
+        {
+          "title": "Scholarship Finder",
+          "description": "Find and apply for relevant scholarships and financial aid",
+          "icon": "gift"
+        }
+      ],
+      "testimonials": {
+        "remove_dummy_reviews": true,
+        "replace_with": "real_user_testimonials_or_remove_section"
+      }
+    },
+    "colleges": {
+      "filters": {
+        "location": [
+          "Delhi",
+          "Punjab",
+          "Haryana",
+          "Uttar Pradesh",
+          "Uttarakhand",
+          "Himachal Pradesh",
+          "Jammu & Kashmir",
+          "Chandigarh",
+          "Rajasthan"
+        ],
+        "category": [
+          "Government Engineering Colleges",
+          "Government Medical Colleges",
+          "Government Law Colleges",
+          "IITs",
+          "NITs",
+          "IIITs",
+          "AIIMS",
+          "IIMs"
+        ],
+        "courses": [
+          "B.Tech/B.E",
+          "MBBS",
+          "BDS",
+          "LLB",
+          "MBA",
+          "Integrated Programs"
+        ]
+      },
+      "college_data_structure": {
+        "engineering_colleges": {
+          "iits": [
+            {
+              "name": "IIT Delhi",
+              "location": "New Delhi",
+              "nirf_ranking": 2,
+              "courses": ["B.Tech CSE", "B.Tech EE", "B.Tech ME", "B.Tech CE"],
+              "jee_advanced_cutoff_2024": {
+                "general": "121 closing rank for CSE",
+                "obc": "Higher cutoff available",
+                "sc_st": "Reserved category cutoffs"
+              },
+              "facilities": [
+                "World-class laboratories",
+                "Research facilities",
+                "Industry partnerships",
+                "International exchange programs"
+              ],
+              "fees": "₹2.5 lakh per year",
+              "apply_button": {
+                "text": "Apply Now",
+                "action": "redirect_to_official_website",
+                "url": "https://www.iitd.ac.in"
+              }
+            },
+            {
+              "name": "IIT Roorkee",
+              "location": "Uttarakhand",
+              "nirf_ranking": 6,
+              "courses": ["B.Tech CSE", "B.Tech EE", "B.Tech ME", "B.Tech CE"],
+              "jee_advanced_cutoff_2024": {
+                "general": "415 closing rank for CSE",
+                "obc": "Higher cutoff available",
+                "sc_st": "Reserved category cutoffs"
+              },
+              "apply_button": {
+                "text": "Apply Now",
+                "action": "redirect_to_official_website",
+                "url": "https://www.iitr.ac.in"
+              }
+            },
+            {
+              "name": "IIT Kanpur",
+              "location": "Uttar Pradesh",
+              "nirf_ranking": 4,
+              "courses": ["B.Tech CSE", "B.Tech EE", "B.Tech ME", "B.Tech CE"],
+              "jee_advanced_cutoff_2024": {
+                "general": "208 closing rank for CSE",
+                "obc": "Higher cutoff available",
+                "sc_st": "Reserved category cutoffs"
+              },
+              "apply_button": {
+                "text": "Apply Now",
+                "action": "redirect_to_official_website",
+                "url": "https://www.iitk.ac.in"
+              }
+            }
+          ],
+          "nits": [
+            {
+              "name": "NIT Kurukshetra",
+              "location": "Haryana",
+              "nirf_ranking": 85,
+              "jee_main_cutoff_2024": {
+                "general": "95+ percentile for CSE",
+                "obc": "90+ percentile",
+                "sc_st": "80+ percentile"
+              },
+              "facilities": [
+                "Modern laboratories",
+                "Industry collaborations",
+                "Placement assistance",
+                "Research opportunities"
+              ],
+              "apply_button": {
+                "text": "Apply Now",
+                "action": "redirect_to_official_website",
+                "url": "https://www.nitkkr.ac.in"
+              }
+            },
+            {
+              "name": "MNIT Jaipur",
+              "location": "Rajasthan",
+              "nirf_ranking": 42,
+              "jee_main_cutoff_2024": {
+                "general": "92+ percentile for CSE",
+                "obc": "87+ percentile",
+                "sc_st": "75+ percentile"
+              },
+              "apply_button": {
+                "text": "Apply Now",
+                "action": "redirect_to_official_website",
+                "url": "https://www.mnit.ac.in"
+              }
+            },
+            {
+              "name": "NIT Hamirpur",
+              "location": "Himachal Pradesh",
+              "nirf_ranking": 65,
+              "jee_main_cutoff_2024": {
+                "general": "88+ percentile for CSE",
+                "obc": "83+ percentile",
+                "sc_st": "70+ percentile"
+              },
+              "apply_button": {
+                "text": "Apply Now",
+                "action": "redirect_to_official_website",
+                "url": "https://nith.ac.in"
+              }
+            }
+          ],
+          "other_government": [
+            {
+              "name": "Delhi Technological University",
+              "location": "Delhi",
+              "nirf_ranking": 30,
+              "jee_main_cutoff_2024": "JAC Delhi Counselling - 92+ percentile for CSE",
+              "apply_button": {
+                "text": "Apply Now",
+                "action": "redirect_to_official_website",
+                "url": "https://www.dtu.ac.in"
+              }
+            },
+            {
+              "name": "NSUT Delhi",
+              "location": "Delhi",
+              "nirf_ranking": 45,
+              "jee_main_cutoff_2024": "JAC Delhi Counselling - 89+ percentile for CSE",
+              "apply_button": {
+                "text": "Apply Now",
+                "action": "redirect_to_official_website",
+                "url": "https://www.nsut.ac.in"
+              }
+            },
+            {
+              "name": "IIIT Delhi",
+              "location": "Delhi",
+              "nirf_ranking": 25,
+              "jee_main_cutoff_2024": "JAC Delhi Counselling - 94+ percentile for CSE",
+              "apply_button": {
+                "text": "Apply Now",
+                "action": "redirect_to_official_website",
+                "url": "https://www.iiitd.ac.in"
+              }
+            }
+          ]
+        },
+        "medical_colleges": {
+          "aiims": [
+            {
+              "name": "AIIMS Delhi",
+              "location": "New Delhi",
+              "nirf_ranking": 1,
+              "neet_cutoff_2024": {
+                "general": "Rank 55",
+                "obc": "Rank 195",
+                "sc": "Rank 3087",
+                "st": "Rank 4820"
+              },
+              "facilities": [
+                "Super-specialty departments",
+                "Research institutes",
+                "Trauma center",
+                "Advanced medical equipment"
+              ],
+              "fees": "₹1,464 per year",
+              "apply_button": {
+                "text": "Apply Now",
+                "action": "redirect_to_official_website",
+                "url": "https://www.aiims.edu"
+              }
+            },
+            {
+              "name": "AIIMS Rishikesh",
+              "location": "Uttarakhand",
+              "nirf_ranking": 8,
+              "neet_cutoff_2024": {
+                "general": "Rank 178",
+                "obc": "Rank 497",
+                "sc": "Rank 4268",
+                "st": "Rank 8547"
+              },
+              "apply_button": {
+                "text": "Apply Now",
+                "action": "redirect_to_official_website",
+                "url": "https://www.aiimsrishikesh.edu.in"
+              }
+            },
+            {
+              "name": "AIIMS Jodhpur",
+              "location": "Rajasthan",
+              "nirf_ranking": 12,
+              "neet_cutoff_2024": {
+                "general": "Rank 264",
+                "obc": "Rank 789",
+                "sc": "Rank 5124",
+                "st": "Rank 9874"
+              },
+              "apply_button": {
+                "text": "Apply Now",
+                "action": "redirect_to_official_website",
+                "url": "https://www.aiimsjodhpur.edu.in"
+              }
+            }
+          ],
+          "government_medical": [
+            {
+              "name": "Maulana Azad Medical College",
+              "location": "Delhi",
+              "nirf_ranking": 15,
+              "neet_cutoff_2024": {
+                "general": "Rank 91",
+                "obc": "Rank 311",
+                "sc": "Rank 1573",
+                "st": "Rank 3385"
+              },
+              "facilities": [
+                "Associated with Lok Nayak Hospital",
+                "Research facilities",
+                "Clinical training",
+                "Modern equipment"
+              ],
+              "apply_button": {
+                "text": "Apply Now",
+                "action": "redirect_to_official_website",
+                "url": "https://www.mamc.ac.in"
+              }
+            },
+            {
+              "name": "Lady Hardinge Medical College",
+              "location": "Delhi",
+              "nirf_ranking": 22,
+              "neet_cutoff_2024": {
+                "general": "Rank 517",
+                "obc": "Rank 1247",
+                "sc": "Rank 7854",
+                "st": "Rank 12456"
+              },
+              "apply_button": {
+                "text": "Apply Now",
+                "action": "redirect_to_official_website",
+                "url": "https://www.lhmc-delhi.nic.in"
+              }
+            },
+            {
+              "name": "Government Medical College Chandigarh",
+              "location": "Chandigarh",
+              "nirf_ranking": 18,
+              "neet_cutoff_2024": {
+                "general": "Rank 247",
+                "obc": "Rank 698",
+                "sc": "Rank 4785",
+                "st": "Rank 8965"
+              },
+              "apply_button": {
+                "text": "Apply Now",
+                "action": "redirect_to_official_website",
+                "url": "https://gmch.gov.in"
+              }
+            }
+          ]
+        },
+        "law_colleges": {
+          "nlus": [
+            {
+              "name": "NLSIU Bangalore",
+              "location": "Karnataka",
+              "nirf_ranking": 1,
+              "clat_cutoff_2024": {
+                "general": "87-98 marks",
+                "obc": "83-95 marks",
+                "sc": "74-90 marks",
+                "st": "70-86 marks"
+              },
+              "apply_button": {
+                "text": "Apply Now",
+                "action": "redirect_to_official_website",
+                "url": "https://www.nlsiu.ac.in"
+              }
+            },
+            {
+              "name": "NALSAR Hyderabad",
+              "location": "Telangana",
+              "nirf_ranking": 2,
+              "clat_cutoff_2024": {
+                "general": "85-96 marks",
+                "obc": "81-93 marks",
+                "sc": "72-88 marks",
+                "st": "68-84 marks"
+              },
+              "apply_button": {
+                "text": "Apply Now",
+                "action": "redirect_to_official_website",
+                "url": "https://www.nalsar.ac.in"
+              }
+            }
+          ],
+          "government_law": [
+            {
+              "name": "Faculty of Law, Delhi University",
+              "location": "Delhi",
+              "nirf_ranking": 5,
+              "entrance_exam": "DU LLB Entrance Test",
+              "cutoff_2024": "Delhi University conducted entrance",
+              "apply_button": {
+                "text": "Apply Now",
+                "action": "redirect_to_official_website",
+                "url": "https://www.du.ac.in"
+              }
+            },
+            {
+              "name": "Jamia Millia Islamia Law",
+              "location": "Delhi",
+              "nirf_ranking": 12,
+              "entrance_exam": "Jamia Entrance Test",
+              "apply_button": {
+                "text": "Apply Now",
+                "action": "redirect_to_official_website",
+                "url": "https://www.jmi.ac.in"
+              }
+            }
+          ]
+        },
+        "management_colleges": {
+          "iims": [
+            {
+              "name": "IIM Lucknow",
+              "location": "Uttar Pradesh",
+              "nirf_ranking": 4,
+              "cat_cutoff_2024": {
+                "general": "97-98 percentile",
+                "obc": "90+ percentile",
+                "sc_st": "Lower cutoffs available"
+              },
+              "fees": "₹19.25 lakh for 2 years",
+              "apply_button": {
+                "text": "Apply Now",
+                "action": "redirect_to_official_website",
+                "url": "https://www.iiml.ac.in"
+              }
+            },
+            {
+              "name": "IIM Rohtak",
+              "location": "Haryana",
+              "nirf_ranking": 8,
+              "cat_cutoff_2024": {
+                "general": "95+ percentile",
+                "obc": "88+ percentile",
+                "sc_st": "Lower cutoffs available"
+              },
+              "apply_button": {
+                "text": "Apply Now",
+                "action": "redirect_to_official_website",
+                "url": "https://www.iimrohtak.ac.in"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "timeline": {
+      "current_year": "2025-26",
+      "exam_schedules": [
+        {
+          "exam_name": "JEE Main 2026",
+          "application_start": "October 2025",
+          "application_end": "November 2025",
+          "exam_date": "January 2026",
+          "result_date": "February 2026",
+          "eligibility": "Class 12 passed/appearing",
+          "status": "upcoming",
+          "official_website": "https://jeemain.nta.nic.in",
+          "application_fee": "₹650 (General), ₹325 (SC/ST/PWD)"
+        },
+        {
+          "exam_name": "JEE Advanced 2026",
+          "application_period": "April 2026",
+          "exam_date": "May 2026",
+          "result_date": "June 2026",
+          "prerequisite": "JEE Main qualified",
+          "status": "upcoming",
+          "application_fee": "₹2800 (General), ₹1400 (SC/ST/PWD)"
+        },
+        {
+          "exam_name": "NEET UG 2026",
+          "application_period": "February-March 2026",
+          "exam_date": "May 2026",
+          "result_date": "June 2026",
+          "status": "upcoming",
+          "application_fee": "₹1700 (General), ₹1000 (SC/ST/OBC/PWD)"
+        },
+        {
+          "exam_name": "CLAT 2026",
+          "application_start": "August 2025",
+          "application_end": "October 2025",
+          "exam_date": "December 2025",
+          "result_date": "December 2025",
+          "status": "applications_open",
+          "application_fee": "₹4000 (General), ₹3500 (SC/ST/BPL)"
+        },
+        {
+          "exam_name": "CAT 2025",
+          "application_period": "August-September 2025",
+          "exam_date": "November 30, 2025",
+          "result_date": "January 2026",
+          "status": "applications_open",
+          "application_fee": "₹2300 (General), ₹1150 (SC/ST/PWD)"
+        },
+        {
+          "exam_name": "CUET 2026",
+          "application_start": "March 2026",
+          "application_end": "March 2026",
+          "exam_date": "May-June 2026",
+          "status": "upcoming",
+          "application_fee": "₹650 per subject"
+        }
+      ],
+      "scholarship_deadlines": [
+        {
+          "scholarship_name": "JN Tata Endowment Loan Scholarship",
+          "deadline": "March 7, 2025",
+          "amount": "Variable loan scholarship up to ₹10 lakh",
+          "eligibility": "Higher education abroad, minimum 60% in graduation",
+          "status": "open",
+          "apply_link": "https://www.jntataendowment.org"
+        },
+        {
+          "scholarship_name": "Swami Dayanand Scholarship",
+          "deadline": "September 30, 2025",
+          "amount": "Full tuition support up to ₹2 lakh per year",
+          "eligibility": "JEE/NEET qualified students, family income below ₹4.5 lakh",
+          "status": "open"
+        },
+        {
+          "scholarship_name": "Virtusa Engineering Excellence Scholarship",
+          "deadline": "January 31, 2026",
+          "amount": "₹1.5 lakh per year",
+          "eligibility": "B.Tech 1st/2nd year, 70% in 12th",
+          "family_income": "Below ₹6,00,000",
+          "status": "upcoming"
+        },
+        {
+          "scholarship_name": "Gates Scholarship",
+          "deadline": "September 15, 2025",
+          "amount": "$200,000 for full degree",
+          "eligibility": "International students for US universities",
+          "status": "open"
+        },
+        {
+          "scholarship_name": "Kishore Vaigyanik Protsahan Yojana (KVPY)",
+          "deadline": "October 2025",
+          "amount": "₹7,000 per month + annual contingency",
+          "eligibility": "Class 11, 12, and 1st year of graduation",
+          "status": "upcoming"
+        }
+      ],
+      "state_exam_deadlines": [
+        {
+          "exam_name": "UPSEE 2026",
+          "state": "Uttar Pradesh",
+          "application_deadline": "March 2026",
+          "exam_date": "April 2026"
+        },
+        {
+          "exam_name": "HPCET 2026",
+          "state": "Himachal Pradesh",
+          "application_deadline": "March 2026",
+          "exam_date": "May 2026"
+        },
+        {
+          "exam_name": "REAP 2026",
+          "state": "Rajasthan",
+          "application_deadline": "April 2026",
+          "exam_date": "May 2026"
+        }
+      ],
+      "calendar_view": "monthly_grid_with_filters",
+      "reminder_system": "email_notifications_enabled"
+    },
+    "career_quiz": {
+      "quiz_structure": {
+        "sections": [
+          {
+            "name": "Interest Assessment",
+            "questions": [
+              {
+                "id": "q1",
+                "question": "Which activity interests you most?",
+                "options": [
+                  "Solving complex mathematical problems and coding",
+                  "Understanding how the human body works and helping patients",
+                  "Analyzing legal cases and arguing in court",
+                  "Developing business strategies and leading teams"
+                ],
+                "category_mapping": {
+                  "option_1": "engineering",
+                  "option_2": "medical",
+                  "option_3": "law",
+                  "option_4": "management"
+                }
+              },
+              {
+                "id": "q2",
+                "question": "What type of work environment do you prefer?",
+                "options": [
+                  "Laboratory or technical facility with computers",
+                  "Hospital or clinical setting with patients",
+                  "Courtroom or law firm with legal documents",
+                  "Corporate office or boardroom with presentations"
+                ],
+                "category_mapping": {
+                  "option_1": "engineering",
+                  "option_2": "medical",
+                  "option_3": "law",
+                  "option_4": "management"
+                }
+              },
+              {
+                "id": "q3",
+                "question": "Which skill do you want to develop most?",
+                "options": [
+                  "Programming and software development",
+                  "Diagnosis and patient care",
+                  "Legal research and argumentation",
+                  "Leadership and strategic planning"
+                ],
+                "category_mapping": {
+                  "option_1": "engineering",
+                  "option_2": "medical",
+                  "option_3": "law",
+                  "option_4": "management"
+                }
+              },
+              {
+                "id": "q4",
+                "question": "What motivates you the most?",
+                "options": [
+                  "Creating innovative technology solutions",
+                  "Saving lives and improving health",
+                  "Fighting for justice and rights",
+                  "Building successful businesses"
+                ],
+                "category_mapping": {
+                  "option_1": "engineering",
+                  "option_2": "medical",
+                  "option_3": "law",
+                  "option_4": "management"
+                }
+              },
+              {
+                "id": "q5",
+                "question": "Which subject did you enjoy most in school?",
+                "options": [
+                  "Mathematics and Physics",
+                  "Biology and Chemistry",
+                  "History and Political Science",
+                  "Economics and Commerce"
+                ],
+                "category_mapping": {
+                  "option_1": "engineering",
+                  "option_2": "medical",
+                  "option_3": "law",
+                  "option_4": "management"
+                }
+              }
+            ]
+          },
+          {
+            "name": "Skills Assessment",
+            "questions": [
+              {
+                "id": "s1",
+                "question": "How comfortable are you with mathematics and physics?",
+                "type": "scale",
+                "scale": "1_to_10_slider",
+                "weight": {
+                  "engineering": "high",
+                  "management": "medium",
+                  "medical": "medium",
+                  "law": "low"
+                }
+              },
+              {
+                "id": "s2",
+                "question": "How well do you handle high-pressure situations?",
+                "type": "scale",
+                "scale": "1_to_10_slider",
+                "weight": {
+                  "medical": "high",
+                  "law": "high",
+                  "management": "high",
+                  "engineering": "medium"
+                }
+              },
+              {
+                "id": "s3",
+                "question": "How good are you at memorizing large amounts of information?",
+                "type": "scale",
+                "scale": "1_to_10_slider",
+                "weight": {
+                  "medical": "high",
+                  "law": "high",
+                  "engineering": "medium",
+                  "management": "medium"
+                }
+              },
+              {
+                "id": "s4",
+                "question": "How comfortable are you with public speaking?",
+                "type": "scale",
+                "scale": "1_to_10_slider",
+                "weight": {
+                  "law": "high",
+                  "management": "high",
+                  "medical": "medium",
+                  "engineering": "low"
+                }
+              }
+            ]
+          },
+          {
+            "name": "Career Goals",
+            "questions": [
+              {
+                "id": "g1",
+                "question": "What is your primary career motivation?",
+                "options": [
+                  "Innovation and technology advancement",
+                  "Helping people and saving lives",
+                  "Justice and legal advocacy",
+                  "Business growth and leadership"
+                ],
+                "category_mapping": {
+                  "option_1": "engineering",
+                  "option_2": "medical",
+                  "option_3": "law",
+                  "option_4": "management"
+                }
+              },
+              {
+                "id": "g2",
+                "question": "What kind of impact do you want to make?",
+                "options": [
+                  "Technological solutions for global problems",
+                  "Direct healthcare impact on individuals",
+                  "Social justice and legal reform",
+                  "Economic growth and business innovation"
+                ]
+              },
+              {
+                "id": "g3",
+                "question": "How important is work-life balance to you?",
+                "options": [
+                  "Very important - I prefer regular hours",
+                  "Somewhat important - I can handle some irregular hours",
+                  "Not very important - I'm willing to work long hours",
+                  "Flexible - depends on the project/case"
+                ]
+              }
+            ]
+          }
+        ],
+        "total_questions": 12,
+        "time_limit": "15_minutes",
+        "scoring_algorithm": "weighted_scoring_based_on_responses",
+        "result_categories": [
+          {
+            "category": "Engineering",
+            "subcategories": [
+              "Computer Science Engineering",
+              "Mechanical Engineering",
+              "Electrical Engineering",
+              "Civil Engineering",
+              "Electronics & Communication"
+            ],
+            "recommended_exams": ["JEE Main", "JEE Advanced", "BITSAT"],
+            "top_colleges": ["IITs", "NITs", "IIITs", "Government Engineering Colleges"],
+            "career_prospects": [
+              "Software Engineer",
+              "Data Scientist",
+              "Product Manager",
+              "Research Scientist"
+            ]
+          },
+          {
+            "category": "Medical",
+            "subcategories": [
+              "MBBS",
+              "BDS",
+              "BAMS",
+              "BHMS",
+              "Nursing",
+              "Pharmacy"
+            ],
+            "recommended_exams": ["NEET UG", "NEET PG"],
+            "top_colleges": ["AIIMS", "Government Medical Colleges", "JIPMER"],
+            "career_prospects": [
+              "Doctor",
+              "Surgeon",
+              "Researcher",
+              "Public Health Specialist"
+            ]
+          },
+          {
+            "category": "Law",
+            "subcategories": [
+              "Constitutional Law",
+              "Corporate Law",
+              "Criminal Law",
+              "International Law",
+              "Intellectual Property Law"
+            ],
+            "recommended_exams": ["CLAT", "AILET", "LSAT"],
+            "top_colleges": ["NLUs", "Government Law Colleges"],
+            "career_prospects": [
+              "Advocate",
+              "Corporate Lawyer",
+              "Judge",
+              "Legal Advisor"
+            ]
+          },
+          {
+            "category": "Management",
+            "subcategories": [
+              "MBA General Management",
+              "Finance",
+              "Marketing",
+              "Operations",
+              "Human Resources"
+            ],
+            "recommended_exams": ["CAT", "XAT", "MAT", "CMAT"],
+            "top_colleges": ["IIMs", "Government Business Schools"],
+            "career_prospects": [
+              "Business Manager",
+              "Consultant",
+              "Entrepreneur",
+              "Investment Banker"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "interactive_features": {
+    "search_functionality": {
+      "global_search": "intelligent_search_across_all_content",
+      "filters": [
+        "Location",
+        "College Type",
+        "Course",
+        "Cutoff Range",
+        "Fees Range",
+        "NIRF Ranking"
+      ],
+      "suggestions": "auto_complete_with_popular_searches",
+      "advanced_search": "boolean_operators_and_complex_queries"
+    },
+    "comparison_tool": {
+      "colleges": "side_by_side_comparison_up_to_4_colleges",
+      "parameters": [
+        "NIRF Ranking",
+        "Cutoff Scores",
+        "Fees Structure",
+        "Placement Records",
+        "Facilities Available",
+        "Location Advantages",
+        "Alumni Network"
+      ],
+      "export_options": "PDF_and_Excel_export"
+    },
+    "bookmark_system": {
+      "features": [
+        "Save colleges and scholarships",
+        "Create custom lists",
+        "Share bookmarks",
+        "Export bookmarked data"
+      ]
+    },
+    "notification_system": {
+      "deadline_reminders": [
+        "Email notifications",
+        "Browser push notifications",
+        "SMS alerts (optional)"
+      ],
+      "new_opportunities": [
+        "Scholarship updates",
+        "College admission notifications",
+        "Exam result announcements"
+      ],
+      "personalized_alerts": "based_on_user_profile_and_preferences"
+    }
+  },
+  "technical_specifications": {
+    "responsive_design": {
+      "approach": "mobile_first_design",
+      "breakpoints": [
+        "Mobile: 320px-768px",
+        "Tablet: 768px-1024px",
+        "Desktop: 1024px+"
+      ]
+    },
+    "performance": {
+      "page_load_time": "under_3_seconds",
+      "image_optimization": "webp_format_with_lazy_loading",
+      "caching": "redis_caching_for_dynamic_content",
+      "cdn": "cloudflare_for_static_assets"
+    },
+    "accessibility": {
+      "standards": "WCAG_2.1_AA_compliant",
+      "features": [
+        "Screen reader support",
+        "Keyboard navigation",
+        "High contrast mode",
+        "Text scaling options"
+      ]
+    },
+    "seo_optimization": {
+      "meta_tags": "dynamic_page_specific_tags",
+      "structured_data": "json_ld_markup_for_colleges_and_exams",
+      "sitemap": "xml_sitemap_with_automatic_updates",
+      "page_speed": "optimized_for_core_web_vitals"
+    }
+  },
+  "fixes_required": {
+    "floating_taskbar": {
+      "spacing_issue": {
+        "problem": "improper_margin_between_company_name_and_home_button",
+        "solution": "add_consistent_16px_margin_between_elements"
+      },
+      "vibration_fix": {
+        "problem": "taskbar_shaking_on_hover",
+        "solution": "remove_transform_animations_and_use_smooth_css_transitions"
+      },
+      "positioning": {
+        "problem": "unstable_fixed_positioning",
+        "solution": "use_position_fixed_with_z_index_1000_and_stable_coordinates"
+      }
+    },
+    "navigation": {
+      "button_spacing": {
+        "problem": "inconsistent_spacing_between_navigation_elements",
+        "solution": "apply_uniform_padding_and_margin_using_css_grid_or_flexbox"
+      },
+      "hover_effects": {
+        "problem": "jittery_hover_animations",
+        "solution": "use_css_transition_all_0.3s_ease_for_smooth_effects"
+      }
+    }
+  },
+  "content_management": {
+    "data_sources": {
+      "college_information": [
+        "Official government websites",
+        "NIRF rankings portal",
+        "University grant commission data"
+      ],
+      "cutoff_data": [
+        "NTA official websites",
+        "Conducting body announcements",
+        "State counselling authorities"
+      ],
+      "scholarship_data": [
+        "Government scholarship portals",
+        "Private foundation websites",
+        "Educational institution announcements"
+      ]
+    },
+    "update_frequency": {
+      "college_data": "monthly_refresh",
+      "cutoff_information": "immediately_after_official_announcements",
+      "exam_deadlines": "real_time_updates",
+      "scholarship_deadlines": "weekly_verification"
+    },
+    "verification_process": {
+      "steps": [
+        "Multi-source verification",
+        "Official website cross-checking",
+        "Manual review by education experts",
+        "User feedback integration"
+      ]
+    }
+  },
+  "additional_features": {
+    "mobile_app": {
+      "platform": "Progressive Web App (PWA)",
+      "features": [
+        "Offline access to saved data",
+        "Push notifications",
+        "App-like experience"
+      ]
+    },
+    "social_features": {
+      "discussion_forums": "college_specific_discussion_boards",
+      "peer_reviews": "student_reviews_and_ratings",
+      "success_stories": "alumni_testimonials_and_journey_sharing"
+    },
+    "career_counseling": {
+      "expert_sessions": "scheduled_video_calls_with_counselors",
+      "webinars": "regular_career_guidance_sessions",
+      "resources": "downloadable_career_guides_and_ebooks"
+    }
+  }
+}
